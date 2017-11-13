@@ -1,7 +1,7 @@
 import React from 'react';
-//import Sequence from './Sequence';
-//import SequenceImg from './SequenceImg';
-//import {getFiles} from '../utils';
+import SideMenu from './SideMenu'; 
+import TopMenu from './TopMenu';
+
 
 export default class App extends React.PureComponent {
     render(){
@@ -9,9 +9,12 @@ export default class App extends React.PureComponent {
             
             <div className="hello">
 
+                <SideMenu ref="sidemenu" title="RES" />
+                <TopMenu ref="topmenu" menulist={['About','Credits','Overview']} />
+
                 <h1>Hello world</h1> <br />
-                Text
-                {/* <SequenceImg list={this.getListFiles()} />-->*/}
+                Text and another super text
+             
             </div>
         )
     }

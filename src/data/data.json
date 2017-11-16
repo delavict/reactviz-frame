@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "name":"Arthur",
+            "value":24
+        },
+        {
+            "name":"Ben",
+            "value":12
+        },
+        {
+            "name":"George",
+            "value":55
+        },
+        {
+            "name":"Laure",
+            "value":34
+        },
+        {
+            "name":"Carol",
+            "value":29
+        }
+        
+    ]
+}

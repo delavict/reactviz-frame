@@ -14,6 +14,7 @@ import Tooltip from './Tooltip';
 class BarChart extends React.Component{
     componentDidMount () {
         let data = this.props.data;
+   
         const faux = this.props.connectFauxDOM('div', 'chart');
 
         const margin = {top: 20, right: 30, bottom: 30, left: 40};
